@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: annie
+    schema: dbt_annie
+    loader: load.sh
+    tables:
+      - name: raw_data
+
